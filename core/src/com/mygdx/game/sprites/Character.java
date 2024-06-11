@@ -4,9 +4,9 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.math.Vector2;
 
-public class Starship extends Sprite {
+public class Character extends Sprite {
     Vector2 previousPosition;
-    public Starship(Texture texture){
+    public Character(Texture texture){
         super(texture);
         previousPosition = new Vector2(getX(), getY());
     }
